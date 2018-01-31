@@ -1,0 +1,42 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.container{
+    width: 800px;
+    margin: 0 auto;
+    padding: 15px;
+    font-family: sans-serif;
+    font-weight: 300;
+}
+table{
+    border: 1px solid #000;
+}
+table th, td{
+    font-weight: 400;
+    padding-right: 60px;
+    padding-left: 20px;
+}
+td{
+    color:#d8d8d8;
+}
+h1{ border-bottom: 3px solid #757575; padding-top: 30px; margin-bottom: 30px; font-weight: 400;}
+.add-user{
+    width: 400px;
+}
+form{
+    text-align: right;
+}
+label{
+    display: block;
+    padding-bottom: 10px;
+}
+input{
+    padding: 3px 0 3px;
+}
+button{
+    padding: 3px 5px 3px 5px;
+    background: #d8d8d8;
+    /* background: linear-gradient(180deg, #d8d8d8 0%, #d8d8d8 80%); */
+    border-radius: 3px;
+}

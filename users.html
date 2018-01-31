@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta http-equiv="X-UA-Compatible" content="ie=edge">
+        <link rel="stylesheet" href="style.css">
+        <script type="text/javascript" src="jquery-3.3.1.js">
+        </script>
+        <script type="text/javascript" src="jquery.js"></script>
+        <title>Users</title>
+    </head>
+    <body>
+        <div class="container">
+            <table>
+                    <tr>
+                        <th>First Name</th>
+                        <th>Last Name</th>
+                        <th>Email Address</th>
+                        <th>Contact#</th>
+                    </tr>
+                    <tr>
+                        <td class="fname"></td>
+                        <td class="lname"></td>
+                        <td class="email"></td>
+                        <td class="contact"></td>
+                    </tr>
+            </table> <!-- End of the table -->
+            <div class="add-user">
+                <h1>Add User</h1>
+                <div class="formData">
+                    <form action="#">
+                        <label for="f_name">
+                            First Name: <input type="text" id="f_name" name="fname" value="First Name">
+                        </label>
+                        <label for="l_name">
+                            Last Name: <input type="text" id="l_name" name="lname" value="Last Name" >
+                        </label>
+                        <label for="email">
+                            Email Address: <input type="text" id="email" name="email" value="Email Address" >
+                        </label>
+                        <label for="contact">
+                            Contact No.: <input type="text" id="contact" name="contact" value="Phone #" >
+                        </label>
+                        <button type="submit" value="Submit">Add User</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </body>
+</html>
